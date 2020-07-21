@@ -41,3 +41,26 @@ Finish time: __4:20___
 
 Actual time needed to complete: ___20 min__
 
+
+## lab03
+
+Number and name of feature: Feature 1: Pagination
+
+Estimate of time needed to complete: 1:30 min
+
+Start time:  1:10
+
+Finish time: 2:10
+
+Actual time needed to complete: 1:00 hr
+
+
+Number and name of feature: Feature 2: Templating
+
+Estimate of time needed to complete: 1:30 min
+
+Start time:  2:15
+
+Finish time: 
+
+Actual time needed to complete: 

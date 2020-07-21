@@ -18,14 +18,20 @@
   img {
     width: 250px;
     height: 250px;
-    display: block;
+    
   }
   
-  #photo-template {
+  /* #photo-template {
     display: none;
-  }
+  } */
   
   h2, p {
     margin: 5%;
   }
-  
+
+
+  #filters button {
+
+    background-color: springgreen;
+    border-radius: 4px;
+  }

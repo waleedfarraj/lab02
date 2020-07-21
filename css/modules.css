@@ -1,12 +1,14 @@
-@font-face {
+/* @font-face {
     font-family: 'MyWebFont';
-    src: url('Talons-Jp5a.ttf');
-  }
+    src: url('talons-Jp5a.ttf');
+  } */
   h1 {
+   
     font-size: 60px;
   }
   h1 span { 
-    font-family: 'MywebFont';
+    /* font-family: 'MywebFont'; */
+    font-family: 'Metal Mania', cursive;
   }
   select {
     padding: 10px;

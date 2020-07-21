@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="css/modules.css">
   <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
  <script id="template" type="text/x-tmpl-mustache">
-  <section>
+  <section class={{keyword}}>
   <h2>{{title}}</h2>
-  <img src="{{url}}" alt="{{Keyword}}">
+  <img src="{{url}}" alt="{{keyword}}">
   <p>{{desc}}</p>
   </section>
 </script> 
@@ -21,6 +21,7 @@
 <body>
   <header>
     <h1>The Gallery of <span>Horns</span></h1>
+    <div id="pages"></div>
     <select>
       <option value="default">Filter by Keyword</option>
     </select>

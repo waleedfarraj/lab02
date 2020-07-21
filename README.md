@@ -61,6 +61,20 @@ Estimate of time needed to complete: 1:30 min
 
 Start time:  2:15
 
-Finish time: 
+Finish time: 3:30
 
-Actual time needed to complete: 
+Actual time needed to complete: 1:15 
+
+
+Number and name of feature: Feature 3: Styling with Flexbox
+
+Estimate of time needed to complete: 30 min
+
+Start time:  3:30
+
+Finish time: 5:00
+
+Actual time needed to complete: 1:30 
+
+Number and name of feature: Feature 4: Styling with Flexbox
+we ddi that yeserday in strech goals .

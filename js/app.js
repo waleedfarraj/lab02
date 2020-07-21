@@ -4,7 +4,7 @@
 
 
 let page1 = $(`<button >page1</button>`)
-$('h1').after(page1)
+$("#pages").append(page1)
 
 $(page1).click(function () {
   let gallery = [];
@@ -45,7 +45,9 @@ $(page1).click(function () {
   function getTemplate(arr){
     let templateM=$('#template').html();
     arr.forEach(element => {
+
       let newObject = Mustache.render(templateM,element)
+
       $('main').append(newObject)
     });
   }
@@ -70,17 +72,21 @@ $(page1).click(function () {
   $('select').change(function () {
     var selectedHornClass = $(this).children('option:selected').val();
     filterHorns(selectedHornClass);
+    console.log(selectedHornClass)
   });
 
 
 
   function filterHorns(selected) {
     let horns = $('section');
+    console.log(horns)
     jQuery.each(horns, function (i, val) {
       // eslint-disable-next-line eqeqeq
       if (!(val.classList.value == selected)) {
+        console.log(val.classList.value +selected + "1")
         $(val).hide(400);
       } else {
+        console.log(val.classList.value +selected + "2")
         $(val).show(400);
       }
     })
@@ -92,7 +98,7 @@ $(page1).click(function () {
     }
   }
 
-  console.log(gallery);
+
 
   let btn1 = $(`<button>Sort by horn number</button>`)
   $("#filters").append(btn1);
@@ -127,7 +133,7 @@ $(page1).click(function () {
 });
 
 let page2 = $(`<button >page2</button>`)
-$('h1').after(page2)
+$("#pages").append(page2)
 
 
 $(page2).click(function () {
@@ -170,6 +176,7 @@ $(page2).click(function () {
       let newObject = Mustache.render(templateM,element)
       $('main').append(newObject)
     });
+    console.log(arr)
   }
 
   // function render(arr) {
@@ -191,6 +198,7 @@ $(page2).click(function () {
   $('select').change(function () {
     var selectedHornClass = $(this).children('option:selected').val();
     filterHorns(selectedHornClass);
+    console.log(selectedHornClass)
   });
 
 

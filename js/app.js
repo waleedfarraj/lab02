@@ -68,7 +68,7 @@ function filterHorns(selected) {
   // eslint-disable-next-line eqeqeq
   if (selected == 'default') {
     $(horns).show(400);
-    $(horns).first().hide();
+    // $(horns).first().hide();
   }
 }
 
